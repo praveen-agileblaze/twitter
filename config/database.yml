@@ -1,0 +1,7 @@
+development:
+  adapter: mysql2
+  database: twitterwithrailsadmin
+  username: root
+  password: redhat
+  pool: 5
+  timeout: 5000
