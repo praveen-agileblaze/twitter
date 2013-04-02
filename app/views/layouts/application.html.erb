@@ -20,8 +20,8 @@
   <% if admin_signed_in? %>
     Signed in as <%= current_admin.email %>. Not you?
     <%= link_to "Sign out admin", destroy_admin_session_path, :method => :delete %>
-  <% else %>
-    <%= link_to "Sign up admin", new_admin_registration_path %> or <%= link_to "sign in as admin", new_admin_session_path %>
+    <%else %>
+ <%= link_to "sign in as admin", new_admin_session_path %>
   <% end %>
 </div></h4>
 
